@@ -308,7 +308,7 @@ header .btn span:nth-child(3){
         top: 0;
         height: 100vh;
         backdrop-filter: blur(4px);
-        background: #0F172A;
+        background: rgba(15, 23, 41, 0.299);
         margin-left: -100%;
         transition: all 1s ease;
     }
