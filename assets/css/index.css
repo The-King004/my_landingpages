@@ -52,8 +52,8 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
 }
 
 header{
@@ -268,7 +268,6 @@ header .btn span:nth-child(3){
 
 .banner_img img{
     width: 48rem;
-    transition: all 1s ease;
 }
 
 
@@ -293,6 +292,10 @@ header .btn span:nth-child(3){
 @media only screen and (max-width: 990px) {
     html{
         font-size: 8px;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 }
 
@@ -425,4 +428,133 @@ header .btn span:nth-child(3){
         height: 5rem;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .section2_one {
+        width: 70%;
+    }
+
+    .section2_two {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .section2 img {
+        width: 14.5rem;
+    }
+    .section2_one {
+        width: 75%;
+    }
+
+    .section2_two {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    header{
+        padding: 1.4rem 2rem;
+    }
+
+    .banner{
+        padding: 1.4rem 2rem 0 2rem;
+        height: 60rem;
+    }
+
+    .banner_text ul{
+        width: 150%;
+    }
+
+    .banner_text{
+        height: 40%;
+    }
+
+    .banner_img{
+        height: 60%;
+    }
+
+    .banner_img img{
+        width: 35rem;
+    }
+    .section2 {
+        height: 20rem;
+    }
+    .section2 img{
+        width: 14rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    header {
+        padding: 0;
+    }
+    .banner {
+        padding: 0;
+        height: 52rem;
+    }
+
+    .banner_text_search input {
+        height: 4rem;
+    }
+
+
+    .banner_text button {
+        width: 10rem;
+    }
+    .banner ul {
+        width: 180%;
+    }
+
+    .banner_img img {
+        width: 30rem;
+    }
+    .section2 {
+        height: 16rem;
+    }
+    .section2 img{
+        width: 10rem;
+    }
+
+    .section2_one {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 220px) {
+    .banner ul {
+        width: 200%;
+    }
+    .banner_img img {
+        width: 25rem;
+    }
+
+    .section2 {
+        padding: 0;
+        height: 14rem;
+    }
+    .section2_one{
+        width: 100%;
+    }
+
+    .section2_two {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 180px) {
+    .banner {
+        height: 48rem;
+    }
+
+    .banner ul {
+        width: 230%;
+    }
+    .banner_img img {
+        width: 20rem;
+    }
+}
+
+
 
