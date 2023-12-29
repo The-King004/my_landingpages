@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
-    <header>
+    <header data-aos="fade-up">
         <h1>xinder</h1>
         <nav class="navlinks">
             <ul>
@@ -27,7 +30,7 @@
         </div>
     </header>
 
-    <div class="banner">
+    <div class="banner" data-aos="fade-up">
         <div class="banner_text banner_box">
             <h2>Search the work of the best artists</h2>
             <div class="banner_text_search">
@@ -50,7 +53,7 @@
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" data-aos="fade-up">
         <img src="./assets/image/log1.svg" alt="">
         <img src="./assets/image/Log2.svg" alt="">
         <img src="./assets/image/Log3.svg" alt="">
@@ -58,7 +61,7 @@
         <img src="./assets/image/Log5.svg" alt="">
     </div>
 
-    <div class="section2">
+    <div class="section2" data-aos="fade-up">
         <div class="section2_one">
             <img src="./assets/image/log1.svg" alt="">
             <img src="./assets/image/Log2.svg" alt="">
@@ -69,35 +72,36 @@
         </div>
         <img src="./assets/image/Log5.svg" alt="">
     </div>
+
+
+    <div class="featured">
+        <div class="featured_link">
+            <h2>Featured art categories</h2>
+            <a href="#">
+                <p>View All Categories</p>
+                <img src="./assets/image/Vector@2x.svg" alt="">
+            </a>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide img1"></div>
+              <div class="swiper-slide img2"></div>
+              <div class="swiper-slide img3"></div>
+              <div class="swiper-slide img4"></div>
+              <div class="swiper-slide img5"></div>
+              <div class="swiper-slide img6"></div>
+              <div class="swiper-slide img7"></div>
+              <div class="swiper-slide img8"></div>
+              <div class="swiper-slide img9"></div>
+            </div>
+        </div>
+    </div>
+
+
     
-    <section class="Featured">
-        <div class="features__text">
-            <h1>Featured art categories </h1>
-            <a href="#">
-                <span>View All categories</span>  
-                <img src="./assets/image/Vector@2x.svg" alt="fleche de direction">
-            </a>
-        </div>
 
-        <div class="features_image">
-            <a href="#">
-                <div class="features_image__box1 featureBox"></div>
-            </a>
-            <a href="#">
-                <div class="features_image__box2 featureBox"></div>
-            </a>
-            <a href="#">
-                <div class="features_image__box3 featureBox"></div>
-            </a>
-            <a href="#">
-                <div class="features_image__box4 featureBox"></div>
-            </a>
-            <a href="#">
-                <div class="features_image__box5 featureBox"></div>
-            </a>
-        </div>
-    </section>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 </html>
